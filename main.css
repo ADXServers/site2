@@ -1,0 +1,354 @@
+body,html {
+    background: url(bg2.jpg) repeat-y center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: 1px;
+    cursor: url('pfp.png'), crosshair;
+}
+
+.navbar {
+    background: gray;
+    opacity: 75%;
+    margin-top: -2vh;
+    margin-left: -3vw;
+    height: 6vh;
+    width: 105vw;
+    font-size: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 890;
+    transition: all 0.3s ease-in;
+
+}
+.navbar:hover{
+    font-size: 2vw;
+    height: 11vh;
+}
+.navbar a{
+    margin-top: 3vh;
+    margin-left: -5vw;
+    padding: 0 10vw;
+    font-weight: 890;
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s ease-in;
+
+}
+.navbar a:hover{
+    font-size: 2.5vw;
+    color: aqua;
+}
+/*
+.navbar a::first-letter{
+    color:aqua;
+}
+
+.navbar2 {
+    display: block;
+    background: gray;
+    opacity: 75%;
+    margin-top: -2vh;
+    margin-left: -5vw;
+    height: 100vh;
+    width: 7vw;
+    font-size: 0px;
+    position: fixed;
+    justify-content: center;
+    align-content: center;
+    z-index: 999;
+}
+.navbar2:hover {
+    width: 20vw;
+    font-size: 3vh;
+}
+.navbar2 a{
+    display: block;
+    text-align: center;
+    margin-top: 10vh;
+    padding-left: 8vh;
+    padding-bottom: 20vh;
+    font-weight: 900;
+    text-decoration: none;
+    color:white;
+}
+.navbar2 a:hover{
+    font-size: 5vh;
+}
+.navbar2 a::first-letter{
+    color:aqua;
+}
+*/
+.bar {
+    width: 105vw;
+    margin-left: -5vw;
+    background-color:black;
+    opacity: 50%;
+    height: 15vh;
+    margin-top: 80vh;
+    position: absolute;
+}
+.bar p{
+    margin-top: 1vh;
+    margin-left: 42vw;
+    font-size: 5vw;
+    font-weight: 900;
+    color:white;
+}
+.bar2 {
+    width: 105vw;
+    margin-left: -5vw;
+    background-color:black;
+    opacity: 50%;
+    height: 15vh;
+    margin-top: 180vh;
+    position: absolute;
+}
+.bar2 p{
+    margin-top: 1vh;
+    margin-left: 48vw;
+    font-size: 5vw;
+    font-weight: 900;
+    color:white;
+}
+.bar3 {
+    width: 105vw;
+    margin-left: -5vw;
+    background-color:black;
+    opacity: 50%;
+    height: 15vh;
+    margin-top: 70vh;
+    position: absolute;
+}
+.bar3 p{
+    margin-top: 1vh;
+    margin-left: 46vw;
+    font-size: 5vw;
+    font-weight: 900;
+    color:white;
+}
+
+.info-1 {
+    background-color: white;
+    margin-top: 100vh;
+    margin-left: 3vw;
+    width: 40vw;
+    height: 30vh;
+    opacity: 70%;
+    box-shadow: 0px 0px 15px black;
+    transition: all 0.2s ease-in;
+
+}
+.info-1:hover{
+    box-shadow: 0px 0px 15px green;
+}
+.info-2:hover{
+    box-shadow: 0px 0px 15px green;
+}
+.info-1 a{
+    color: green;
+    font-size: 3vw;
+    font-weight: 900;
+    margin-left: 4vw;
+    text-align: center;
+    text-decoration: none;
+}
+.info-1 p{
+    padding-left: 2vw;
+    font-size: 1vw;
+    margin-bottom: -0.5vw;
+}
+.cssc{
+    color: blue;
+}
+.htmlc {
+    color:orange;
+}
+.info-2 {
+    background-color: white;
+    margin-top: -34vh;
+    margin-left: 55vw;
+    width: 40vw;
+    height: 30vh;
+    opacity: 70%;
+    box-shadow: 0px 0px 15px black;
+    transition: all 0.2s ease-in;
+}
+.info-2 h1{
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+}
+.info-2 p{
+    padding-left: 2vw;
+    font-size: 1vw;
+}
+.find-1{
+    opacity: 75%;
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    margin-top: 80vh;
+    margin-left: 34vw;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.2s ease-in;
+
+}
+.find-1:hover{
+    box-shadow: 0px 0px 15px green;
+}
+.links{
+    margin-left: 38.5vw;
+    margin-top: -28vh;
+    display:flex;
+    z-index: 800;
+    padding: 20 0px;
+}
+.links a{
+    text-decoration: none;
+    border: 4px solid black;
+    color: white;
+    background-color:black;
+    border-radius: 30%;
+    z-index: 800;
+    margin-left: 2vw;
+    font-size: 2vw;
+    transition: all 0.2s ease-in;
+@media screen and (max-width: 500px) {
+    .mn{
+    }
+    .infotxt{
+        
+    }
+}
+}
+.links a:hover{
+    border-radius: 50%;
+    color:blue;
+}
+.find-1 h1{
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.mn{
+    background-color: rgb(168, 168, 168);
+    width: 15vw;
+    height: 58vh;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    position: absolute;
+    opacity: 90%;
+    text-align: center;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 3%;
+    transition: all 0.3s ease-in;
+
+}
+.mn h1{
+    color:yellowgreen;
+    font-weight: 900;
+    font-size: 3vw;
+    margin-top: -1vh;
+}
+.mntxt{
+    margin-top: -9vh;
+    background-color:white;
+    height: 32vh;
+    border-radius: 2%; 
+}
+.contactbtn{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -5vh;
+    margin-left: -2.5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+}
+.contactbtn:hover{
+    box-shadow: 0px 0px 15px blue   ;
+    background-color: rgba(124, 124, 124, 0.616);
+}
+.mainp{
+    font-weight: 900;
+    font-size: 1vw;
+}
+.subp{
+    font-weight: 600;
+}
+.mn img{
+    width: 8vw;
+    border-radius: 50%;
+    margin-top: -4vh;
+    margin-bottom: 9vh;
+}
+.mn:hover{
+    box-shadow: 0px 0px 15px green;
+    opacity: 80%;
+}
+
+.obox{
+    opacity: 75%;
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    margin-top: 100vh;
+    margin-left: 34vw;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.2s ease-in;
+}
+.obox h1{
+    color:black;
+    font-weight: 900;
+    font-size: 2vw;
+}
+.mp i {
+    color:blue;
+    font-size: 25px;
+}
+.obox:hover{
+    box-shadow: 0px 0px 15px green;
+}
+.obox p{
+    font-size: 1.2vw;
+    clear:both
+}
+
+
+.obox a{
+    color: black;
+    text-decoration: none;
+    margin-top: -5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+}
+.obox a:hover{
+    box-shadow: 0px 0px 15px blue   ;
+    background-color: rgba(124, 124, 124, 0.616);
+}
+.cursor {
+    width: 1rem;
+    height: 1rem;
+    border: 3px solid green;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+} 
